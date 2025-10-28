@@ -17,7 +17,7 @@ Este projeto é um assistente interativo que utiliza **inteligência artificial 
 
 ## 🚀 Visualização online
 
-🔗 [Clique aqui para acessar o site](https://github.com/helensjferreira-dev/assistente-esportivo/)
+🔗 [Clique aqui para acessar o site](https://helensjferreira-dev.github.io/assistente-esportivo/)
 
 ---
 
