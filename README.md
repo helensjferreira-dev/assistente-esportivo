@@ -1,25 +1,31 @@
-# 📘 README em Português  
+# 📘 README em Português
 
-# 🧠 Assistente Esportivo com IA
+# 🧠 Assistente Esportivo com IA (Gemini API)
 
-Este projeto é um assistente interativo que utiliza **inteligência artificial (Gemini)** para responder perguntas sobre **apostas esportivas** em futebol, basquete e poker. Ele fornece dicas, estatísticas e estratégias com base em ferramentas como **Google Search** e **Google Maps**, integradas via API.
+Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas de forma contextualizada, com interface responsiva e integração em tempo real.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- ✅ Interface web responsiva
-- ✅ Integração com a API Gemini 2.5 Flash
-- ✅ Suporte a três modalidades: futebol, basquete e poker
-- ✅ Respostas em **Markdown**, convertidas para HTML
-- ✅ Uso de ferramentas externas para contexto atualizado
-- ✅ Animações e design moderno com CSS puro
+- ✅ Respostas inteligentes sobre esportes (futebol, basquete, vôlei, etc.).
+
+- ✅ Interface web responsiva em HTML + CSS + JavaScript.
+
+- ✅ Suporte a três esportes: futebol, basquete e poker e perguntas variadas.
+- ✅ Exibição formatada das respostas com Markdown.
+- ✅ Uso de ferramentas externas para contexto atualizado.
 
 ---
 
 ## 🚀 Visualização online
 
-🔗 [Clique aqui para acessar o site](https://helensjferreira-dev.github.io/assistente-esportivo/)
+🔗 [Clique aqui para acessar a página](https://helensjferreira-dev.github.io/assistente-esportivo/)
+
+<p align="center">
+  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
+  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
+</p>
 
 ---
 
@@ -29,32 +35,35 @@ Este projeto é um assistente interativo que utiliza **inteligência artificial 
 - CSS3
 - JavaScript (ES6+)
 - [Gemini API](https://ai.google.dev/)
-- [Showdown.js](https://github.com/showdownjs/showdown)
+- Bibliotecas: [Showdown.js (renderização Markdown)](https://github.com/showdownjs/showdown)
+- Ferramentas: Git/GitHub, Figma
 
 ---
 
-## 📦 Como rodar o projeto
+## 📦 Como executar
 
 1. Clone o repositório:
+
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/helensjferreira-dev/assistente-esportivo.git
+
+   ```
 
 2. Abra o arquivo index.html no navegador.
 
 3. Insira sua API Key do Gemini no campo indicado.
 
-4. Escolha o jogo e faça sua pergunta.  
+4. Escolha o jogo e faça sua pergunta.
 
-## 💡 Exemplos de perguntas
+## 💡 Exemplos de Uso
 
-- “Qual mercado é mais lucrativo no futebol brasileiro?”
+- “Quem foi o artilheiro da Copa de 2002”
 
 - “Vale a pena apostar no over 2.5 nos jogos da Premier League?”
 
 - "Qual mercado é mais seguro para apostar em jogos da Série B do Brasileiro?"
 
 - "Quais times têm melhor aproveitamento no 1º quarto?"
-  
 - “Qual estratégia funciona melhor em torneios de poker Sit & Go?”
 
 ## 📁 Estrutura de arquivos
@@ -63,84 +72,129 @@ Este projeto é um assistente interativo que utiliza **inteligência artificial 
 ├── style.css  
 ├── script.js  
 ├── assets/  
-│   ├── bg.jpg  
-│   └── pgf.png  
+│ ├── bg.jpg  
+│ ├── pgf.png  
+│ ├── 00consulta.png  
+│ └── consulta.png
+
+## 📈 Próximos Passos
+
+- Adicionar histórico de perguntas e respostas.
+
+- Implementar autenticação de usuários.
+
+- Criar versão mobile com PWA.
+
+- Cache de respostas para reduzir chamadas à API.
+
+- Dockerizar aplicação para facilitar deploy.
 
 ## 📄 Licença
+
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 👤 Autora Hélen Ferreira Desenvolvedora  
-📸 [Linkedin](https://www.linkedin.com/in/helensjferreiraa-dev/) • 💬 [WhatsApp](https://wa.me/5548988183720)  
+📸 [Linkedin](https://www.linkedin.com/in/helensjferreira-dev/)
+💬 [WhatsApp](https://wa.me/5548988183720)
+🔗 [GitHub](https://github.com/helensjferreira-dev/assistente-esportivo)
 
 <br><br>
-    
-# 📗 README in English  
 
-## 🧠 Sports Betting Assistant with AI  
-This project is an interactive assistant powered by Gemini AI, designed to answer questions about sports betting in soccer, basketball, and poker. It provides tips, statistics, and strategies using tools like Google Search and Google Maps, integrated via API.
+# 📘 README in English
 
-## 🚀 Features  
-✅ Responsive web interface  
-✅ Integration with Gemini 2.5 Flash API  
-✅ Support for three sports: soccer, basketball, and poker  
-✅ Responses formatted in Markdown and converted to HTML  
-✅ External tools for up-to-date context  
-✅ Modern animations and styling with pure CSS
+# 🧠 Sports Assistant with AI (Gemini API)
 
-## 🌐 Live Preview  
-🔗 [Clique aqui para acessar o site](https://helensjferreira-dev.github.io/assistente-esportivo/)  
-  
-## 🛠️ Technologies Used  
+Web application that uses **Gemini API (LLM)** to answer sports-related questions in a contextualized way, with a responsive interface and real-time integration.
+
+---
+
+## 🚀 Features
+
+- ✅ Intelligent answers about sports (soccer, basketball, poker, etc.).
+- ✅ Responsive web interface built with HTML + CSS + JavaScript.
+- ✅ Support for three sports: soccer, basketball, and poker.
+- ✅ Formatted responses using Markdown.
+- ✅ External tools for updated context.
+
+---
+
+## 🚀 Online Demo
+
+🔗 [Click here to access the page](https://helensjferreira-dev.github.io/assistente-esportivo/)
+
+<p align="center">
+  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
+  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
+
+## </p>
+
+## 🛠️ Technologies Used
 
 - HTML5
-
 - CSS3
-
 - JavaScript (ES6+)
+- [Gemini API](https://ai.google.dev/)
+- Libraries: [Showdown.js (Markdown rendering)](https://github.com/showdownjs/showdown)
+- Tools: Git/GitHub, Figma
 
-- Gemini API
+---
 
-- Showdown.js (Markdown to HTML converter)  
-
-## 📦 How to Run the Project  
+## 📦 How to Run
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/helensjferreira-dev/assistente-esportivo.git
+
+   ```
 
 2. Open the index.html file in your browser.
 
 3. Enter your Gemini API Key in the designated field.
 
-4. Select the sport and ask your question.  
+4. Select the sport and ask your question.
 
-## 💡 Sample Questions  
+## 💡 Usage Examples
 
-“Which market is most profitable in Brazilian soccer?”
+- “Who was the top scorer of the 2002 World Cup?”
 
-“Is it worth betting on over 2.5 goals in Premier League matches?”
+- “Is it worth betting on over 2.5 goals in Premier League matches?”
 
-“Which market is safer for betting in Série B games?”
+- “Which market is safer for betting in Série B games?”
 
-“Which teams perform best in the first quarter?”
+- “Which teams perform better in the 1st quarter?”
 
-“What strategy works best in Sit & Go poker tournaments?”  
+- “What strategy works best in Sit & Go poker tournaments?”
 
-## 📁 File Structure  
+## 📁 File Structure
 
 ├── index.html  
 ├── style.css  
 ├── script.js  
 ├── assets/  
-│   ├── bg.jpg  
-│   └── pgf.png  
+│ ├── bg.jpg  
+│ ├── pgf.png  
+│ ├── 00consulta.png  
+│ └── consulta.png
 
-## 📄 License  
-This project is licensed under the MIT License. See the LICENSE file for details.  
+## 📈 Next Steps
+
+Add history of questions and answers.
+
+Implement user authentication.
+
+Create a mobile version with PWA.
+
+Cache responses to reduce API calls.
+
+Dockerize the application for easier deployment.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 👤 Author
 Hélen Ferreira – Developer  
-📸 [Linkedin](https://www.linkedin.com/in/helensjferreiraa-dev/) • 💬 [WhatsApp](https://wa.me/5548988183720)
-
-
+📸 [Linkedin](https://www.linkedin.com/in/helensjferreira-dev/)
+💬 [WhatsApp](https://wa.me/5548988183720)
+🔗 [GitHub](https://github.com/helensjferreira-dev/assistente-esportivo)
