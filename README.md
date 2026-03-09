@@ -1,12 +1,46 @@
-# 📘 README em Português
-
 # 🧠 Assistente Esportivo com IA (Gemini API)
+
+[🇧🇷 Português](#-português) | [🇺🇸 English](#-english)
+
+---
+
+## 🇧🇷 Português
+
+### 🚀 Visualização online
+
+🔗 [Clique aqui para acessar a página](https://helensjferreira-dev.github.io/assistente-esportivo/)
+
+<p align="center">
+  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
+  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
+</p>
+
+---
+
+### 📝 Sobre o Projeto
 
 Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas de forma contextualizada, com interface responsiva e integração em tempo real.
 
 ---
 
-## 🚀 Funcionalidades
+### 📁 Estrutura de arquivos
+
+```text
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── bg.jpg
+│   ├── pgf.png
+│   ├── 00-consulta.png
+│   └── consulta.png
+├── LICENSE
+└── README.md
+```
+
+---
+
+### 🚀 Funcionalidades
 
 - ✅ Respostas inteligentes sobre esportes (futebol, basquete, vôlei, etc.).
 
@@ -18,29 +52,18 @@ Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas
 
 ---
 
-## 🚀 Visualização online
-
-🔗 [Clique aqui para acessar a página](https://helensjferreira-dev.github.io/assistente-esportivo/)
-
-<p align="center">
-  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
-  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
-</p>
-
----
-
-## 🛠️ Tecnologias utilizadas
+### 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - [Gemini API](https://ai.google.dev/)
 - Bibliotecas: [Showdown.js (renderização Markdown)](https://github.com/showdownjs/showdown)
-- Ferramentas: Git/GitHub, Figma
+- Ferramentas: Git/GitHub
 
 ---
 
-## 📦 Como executar
+### 📦 Como executar
 
 1. Clone o repositório:
 
@@ -53,9 +76,13 @@ Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas
 
 3. Insira sua API Key do Gemini no campo indicado.
 
-4. Escolha o jogo e faça sua pergunta.
+```bash
+Aviso: "Sua API Key é processada apenas localmente no seu navegador e não é armazenada em nenhum servidor externo."
+```
 
-## 💡 Exemplos de Uso
+4. Escolha o esporte e faça sua pergunta.
+
+### 💡 Exemplos de Uso
 
 - “Quem foi o artilheiro da Copa de 2002”
 
@@ -66,18 +93,7 @@ Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas
 - "Quais times têm melhor aproveitamento no 1º quarto?"
 - “Qual estratégia funciona melhor em torneios de poker Sit & Go?”
 
-## 📁 Estrutura de arquivos
-
-├── index.html  
-├── style.css  
-├── script.js  
-├── assets/  
-│ ├── bg.jpg  
-│ ├── pgf.png  
-│ ├── 00consulta.png  
-│ └── consulta.png
-
-## 📈 Próximos Passos
+### 📈 Próximos Passos
 
 - Adicionar histórico de perguntas e respostas.
 
@@ -89,7 +105,7 @@ Aplicação web que utiliza Gemini API (LLM) para responder perguntas esportivas
 
 - Dockerizar aplicação para facilitar deploy.
 
-## 📄 Licença
+### 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
@@ -100,15 +116,48 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 <br><br>
 
-# 📘 README in English
+---
+
+## 🇺🇸 English
 
 # 🧠 Sports Assistant with AI (Gemini API)
+
+### 🚀 Online Demo
+
+🔗 [Click here to access the page](https://helensjferreira-dev.github.io/assistente-esportivo/)
+
+<p align="center">
+  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
+  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
+
+</p>
+
+---
+
+### 📝 About the Project
 
 Web application that uses **Gemini API (LLM)** to answer sports-related questions in a contextualized way, with a responsive interface and real-time integration.
 
 ---
 
-## 🚀 Features
+### 📁 File Structure
+
+```text
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── bg.jpg
+│   ├── pgf.png
+│   ├── 00-consulta.png
+│   └── consulta.png
+├── LICENSE
+└── README.md
+```
+
+---
+
+### 🚀 Features
 
 - ✅ Intelligent answers about sports (soccer, basketball, poker, etc.).
 - ✅ Responsive web interface built with HTML + CSS + JavaScript.
@@ -118,28 +167,18 @@ Web application that uses **Gemini API (LLM)** to answer sports-related question
 
 ---
 
-## 🚀 Online Demo
-
-🔗 [Click here to access the page](https://helensjferreira-dev.github.io/assistente-esportivo/)
-
-<p align="center">
-  <img src="assets/00-consulta.png" alt="Tela inicial" width="400"/>
-  <img src="assets/consulta.png" alt="Pergunta e resposta" width="400"/>
-
-## </p>
-
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - [Gemini API](https://ai.google.dev/)
 - Libraries: [Showdown.js (Markdown rendering)](https://github.com/showdownjs/showdown)
-- Tools: Git/GitHub, Figma
+- Tools: Git/GitHub
 
 ---
 
-## 📦 How to Run
+### 📦 How to Run
 
 1. Clone the repository:
 
@@ -151,10 +190,12 @@ Web application that uses **Gemini API (LLM)** to answer sports-related question
 2. Open the index.html file in your browser.
 
 3. Enter your Gemini API Key in the designated field.
-
+   ```bash
+      Security Note: Your API Key is processed only locally within your browser and is not stored on any external server.
+   ```
 4. Select the sport and ask your question.
 
-## 💡 Usage Examples
+### 💡 Usage Examples
 
 - “Who was the top scorer of the 2002 World Cup?”
 
@@ -166,30 +207,21 @@ Web application that uses **Gemini API (LLM)** to answer sports-related question
 
 - “What strategy works best in Sit & Go poker tournaments?”
 
-## 📁 File Structure
+---
 
-├── index.html  
-├── style.css  
-├── script.js  
-├── assets/  
-│ ├── bg.jpg  
-│ ├── pgf.png  
-│ ├── 00consulta.png  
-│ └── consulta.png
+### 📈 Next Steps
 
-## 📈 Next Steps
+- Add history of questions and answers.
 
-Add history of questions and answers.
+- Implement user authentication.
 
-Implement user authentication.
+- Create a mobile version with PWA.
 
-Create a mobile version with PWA.
+- Cache responses to reduce API calls.
 
-Cache responses to reduce API calls.
+- Dockerize the application for easier deployment.
 
-Dockerize the application for easier deployment.
-
-## 📄 License
+### 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
