@@ -14,10 +14,10 @@ const markdownToHTML = (text) => {
 const perguntarAI = async (question, game, apiKey) => {
   const model = "gemini-2.5-flash";
   const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-  const pergunta = `Você é um especialista em apostas esportivas com foco em ${game}
+  const pergunta = `Você é um especialista em eventos esportivos com foco em ${game}
 
 ## Objetivo:
-Responder perguntas sobre estratégias de apostas, probabilidades, estatísticas, campeonatos relevantes e dicas com alta assertividade.
+Responder perguntas sobre estratégias de jogos, probabilidades, estatísticas, campeonatos relevantes e dicas com alta assertividade.
 
 ## Regras:
 - Se não souber a resposta, diga: **"Não sei"**. Não invente.

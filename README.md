@@ -86,9 +86,9 @@ Aviso: "Sua API Key é processada apenas localmente no seu navegador e não é a
 
 - “Quem foi o artilheiro da Copa de 2002”
 
-- “Vale a pena apostar no over 2.5 nos jogos da Premier League?”
+- “Nos jogos da Premier League normalmente saem mais de 2 gols?”
 
-- "Qual mercado é mais seguro para apostar em jogos da Série B do Brasileiro?"
+- "Qual time tem mais chance de vencer o campeonato Série B do Brasileiro?"
 
 - "Quais times têm melhor aproveitamento no 1º quarto?"
 - “Qual estratégia funciona melhor em torneios de poker Sit & Go?”
@@ -199,9 +199,9 @@ Web application that uses **Gemini API (LLM)** to answer sports-related question
 
 - “Who was the top scorer of the 2002 World Cup?”
 
-- “Is it worth betting on over 2.5 goals in Premier League matches?”
+- "In Premier League matches, do more than 2 goals usually happen?"
 
-- “Which market is safer for betting in Série B games?”
+- "Which team is most likely to win the Brazilian Serie B championship?"
 
 - “Which teams perform better in the 1st quarter?”
 
